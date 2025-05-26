@@ -28,9 +28,9 @@ const FAQSection: React.FC = () => {
               Como começo a usar o Elo se minha escola já o adotou?
             </h3>
             <p className="text-gray-700">
-              É simples! A escola fornecerá as instruções e o código de acesso (ou link de convite). 
+              É simples! A escola fornecerá as instruções de primeiro acesso através do seu e-mail. 
               Basta baixar o aplicativo Elo na sua loja de aplicativos (App Store ou Google Play), 
-              criar sua conta segura e inserir as informações fornecidas pela escola para vincular ao perfil do seu filho.
+              e inserir as informações fornecidas pela escola para acessar o seu perfil.
             </p>
           </div>
           

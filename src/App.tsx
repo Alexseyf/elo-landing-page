@@ -5,7 +5,6 @@ import ProblemSection from './ProblemSection';
 import SolutionSection from './SolutionSection';
 import BenefitsSection from './BenefitsSection';
 import HowItWorksSection from './HowItWorksSection';
-import TestimonialsSection from './TestimonialsSection';
 import CTASection from './CTASection';
 import FAQSection from './FAQSection';
 import FooterSection from './FooterSection';
@@ -22,9 +21,6 @@ function App() {
       </div>
       <div id="como-funciona">
         <HowItWorksSection />
-      </div>
-      <div id="depoimentos">
-        <TestimonialsSection />
       </div>
       <CTASection />
       <div id="faq">
