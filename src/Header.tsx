@@ -41,9 +41,6 @@ const Header: React.FC = () => {
             <a href="#como-funciona" className={`${isScrolled ? 'text-gray-text' : 'text-white'} hover:text-blue-icon transition-colors`}>
               Como Funciona
             </a>
-            <a href="#depoimentos" className={`${isScrolled ? 'text-gray-text' : 'text-white'} hover:text-blue-icon transition-colors`}>
-              Depoimentos
-            </a>
             <a href="#faq" className={`${isScrolled ? 'text-gray-text' : 'text-white'} hover:text-blue-icon transition-colors`}>
               FAQ
             </a>
