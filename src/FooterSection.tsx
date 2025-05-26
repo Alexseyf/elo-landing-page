@@ -2,7 +2,7 @@ import React from 'react';
 
 const FooterSection: React.FC = () => {
   return (
-    <footer className="bg-blue-900 text-white py-12 px-4">
+    <footer className="bg-blue-background text-white py-12 px-4">
       <div className="container mx-auto max-w-6xl">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Logo e Slogan */}
@@ -35,7 +35,7 @@ const FooterSection: React.FC = () => {
         </div>
         
         {/* Redes Sociais */}
-        <div className="mt-10 pt-8 border-t border-blue-800 flex flex-col md:flex-row justify-between items-center">
+        <div className="mt-10 pt-8 border-t border-blue-200 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-blue-300 mb-4 md:mb-0">
             Siga-nos nas redes sociais
           </p>

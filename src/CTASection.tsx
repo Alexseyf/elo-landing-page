@@ -2,7 +2,7 @@ import React from 'react';
 
 const CTASection: React.FC = () => {
   return (
-    <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16 px-4">
+    <section className="bg-gradient-to-r from-blue-background to-blue-background text-white py-16 px-4">
       <div className="container mx-auto max-w-4xl text-center">
         <h2 className="text-3xl md:text-4xl font-semibold mb-6">
           Pronto para fortalecer o elo entre sua escola e as famílias?

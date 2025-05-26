@@ -12,6 +12,7 @@ export default {
         'primary-blue-light': 'var(--primary-blue-light)',
         'accent-yellow': 'var(--accent-yellow)',
         'accent-green': 'var(--accent-green)',
+        'blue-background': 'var(--blue-app)',
       }
     },
   },
