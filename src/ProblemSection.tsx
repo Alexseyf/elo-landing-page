@@ -4,7 +4,7 @@ const ProblemSection: React.FC = () => {
   return (
     <section className="bg-gray-50 py-16 px-4">
       <div className="container mx-auto max-w-4xl">
-        <h2 className="text-3xl md:text-4xl font-semibold mb-8 text-center text-gray-800">
+        <h2 className="text-3xl md:text-4xl font-semibold mb-8 text-center text-blue-text">
           Reconhece esses desafios?
         </h2>
         <div className="bg-white p-6 md:p-8 rounded-xl shadow-md">

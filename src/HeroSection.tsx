@@ -11,7 +11,7 @@ const HeroSection: React.FC = () => {
           Acompanhe a rotina, comunique-se com a escola e participe de cada descoberta do seu pequeno na educação infantil. Tudo na palma da sua mão, fortalecendo o elo mais importante: o seu com ele.
         </p>
         <div className="mt-10 flex justify-center">
-          <button className="bg-yellow-400 hover:bg-yellow-500 text-blue-900 font-bold py-3 px-8 rounded-full text-lg transition-all">
+          <button className="bg-yellow-400 hover:bg-yellow-500 text-blue-text font-bold py-3 px-8 rounded-full text-lg transition-all">
             Conheça o Elo
           </button>
         </div>

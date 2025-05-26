@@ -15,12 +15,12 @@ const CTASection: React.FC = () => {
             Leve mais praticidade, segurança e engajamento para a sua comunidade escolar.
           </p>
           
-          <button className="bg-yellow-400 hover:bg-yellow-500 text-blue-900 font-bold py-3 px-8 rounded-full text-lg transition-all">
+          <button className="bg-yellow-400 hover:bg-yellow-500 text-blue-text font-bold py-3 px-8 rounded-full text-lg transition-all">
             Solicite uma Demonstração Gratuita
           </button>
         </div>
         
-        <div className="mt-12 pt-8 border-t border-blue-400">
+        <div className="mt-12 pt-8 border-t border-white">
           <h3 className="text-xl font-semibold mb-4">É pai ou responsável?</h3>
           <p className="mb-6">
             Se sua escola ainda não utiliza o Elo, indique nossa solução! 
@@ -28,13 +28,13 @@ const CTASection: React.FC = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <button className="bg-white hover:bg-gray-100 text-blue-800 font-bold py-3 px-8 rounded-full text-lg transition-all flex items-center justify-center">
+            <button className="bg-white hover:bg-gray-100 text-blue-text font-bold py-3 px-8 rounded-full text-lg transition-all flex items-center justify-center">
               <svg className="w-6 h-6 mr-2" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M17.5,12A1.5,1.5 0 0,1 16,10.5A1.5,1.5 0 0,1 17.5,9A1.5,1.5 0 0,1 19,10.5A1.5,1.5 0 0,1 17.5,12M14.5,8A1.5,1.5 0 0,1 13,6.5A1.5,1.5 0 0,1 14.5,5A1.5,1.5 0 0,1 16,6.5A1.5,1.5 0 0,1 14.5,8M9.5,8A1.5,1.5 0 0,1 8,6.5A1.5,1.5 0 0,1 9.5,5A1.5,1.5 0 0,1 11,6.5A1.5,1.5 0 0,1 9.5,8M6.5,12A1.5,1.5 0 0,1 5,10.5A1.5,1.5 0 0,1 6.5,9A1.5,1.5 0 0,1 8,10.5A1.5,1.5 0 0,1 6.5,12M12,3A9,9 0 0,0 3,12A9,9 0 0,0 12,21A9,9 0 0,0 21,12A9,9 0 0,0 12,3Z" />
               </svg>
               Baixe na App Store
             </button>
-            <button className="bg-white hover:bg-gray-100 text-blue-800 font-bold py-3 px-8 rounded-full text-lg transition-all flex items-center justify-center">
+            <button className="bg-white hover:bg-gray-100 text-blue-text font-bold py-3 px-8 rounded-full text-lg transition-all flex items-center justify-center">
               <svg className="w-6 h-6 mr-2" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z" />
               </svg>

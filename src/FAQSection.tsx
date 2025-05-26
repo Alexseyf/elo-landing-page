@@ -4,14 +4,14 @@ const FAQSection: React.FC = () => {
   return (
     <section className="bg-white py-16 px-4">
       <div className="container mx-auto max-w-4xl">
-        <h2 className="text-3xl md:text-4xl font-semibold mb-10 text-center text-blue-700">
+        <h2 className="text-3xl md:text-4xl font-semibold mb-10 text-center text-blue-text">
           Perguntas Frequentes
         </h2>
         
         <div className="space-y-6">
           {/* FAQ Item 1 */}
           <div className="bg-gray-50 rounded-xl p-6 hover:shadow-md transition-all">
-            <h3 className="text-xl font-semibold text-blue-800 mb-3">
+            <h3 className="text-xl font-semibold text-blue-text mb-3">
               Os dados do meu filho estão seguros no Elo?
             </h3>
             <p className="text-gray-700">
@@ -24,7 +24,7 @@ const FAQSection: React.FC = () => {
           
           {/* FAQ Item 2 */}
           <div className="bg-gray-50 rounded-xl p-6 hover:shadow-md transition-all">
-            <h3 className="text-xl font-semibold text-blue-800 mb-3">
+            <h3 className="text-xl font-semibold text-blue-text mb-3">
               Como começo a usar o Elo se minha escola já o adotou?
             </h3>
             <p className="text-gray-700">
@@ -36,7 +36,7 @@ const FAQSection: React.FC = () => {
           
           {/* FAQ Item 3 */}
           <div className="bg-gray-50 rounded-xl p-6 hover:shadow-md transition-all">
-            <h3 className="text-xl font-semibold text-blue-800 mb-3">
+            <h3 className="text-xl font-semibold text-blue-text mb-3">
               Posso acessar o Elo de qualquer dispositivo?
             </h3>
             <p className="text-gray-700">
@@ -47,7 +47,7 @@ const FAQSection: React.FC = () => {
           
           {/* FAQ Item 4 */}
           <div className="bg-gray-50 rounded-xl p-6 hover:shadow-md transition-all">
-            <h3 className="text-xl font-semibold text-blue-800 mb-3">
+            <h3 className="text-xl font-semibold text-blue-text mb-3">
               O aplicativo tem algum custo para os pais?
             </h3>
             <p className="text-gray-700">

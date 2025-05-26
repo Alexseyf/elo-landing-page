@@ -13,6 +13,8 @@ export default {
         'accent-yellow': 'var(--accent-yellow)',
         'accent-green': 'var(--accent-green)',
         'blue-background': 'var(--blue-app)',
+        'blue-text': 'var(--blue-app)',
+        'blue-icon': 'var(--blue-icon)',
       }
     },
   },

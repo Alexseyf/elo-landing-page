@@ -28,23 +28,23 @@ const Header: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center">
           <div className="flex items-center">
-            <a href="#" className={`text-2xl font-bold ${isScrolled ? 'text-blue-700' : 'text-white'}`}>
+            <a href="#" className={`text-2xl font-bold ${isScrolled ? 'text-blue-text' : 'text-white'}`}>
               Elo
             </a>
           </div>
           
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
-            <a href="#beneficios" className={`${isScrolled ? 'text-gray-700' : 'text-white'} hover:text-blue-500 transition-colors`}>
+            <a href="#beneficios" className={`${isScrolled ? 'text-gray-text' : 'text-white'} hover:text-blue-icon transition-colors`}>
               Benefícios
             </a>
-            <a href="#como-funciona" className={`${isScrolled ? 'text-gray-700' : 'text-white'} hover:text-blue-500 transition-colors`}>
+            <a href="#como-funciona" className={`${isScrolled ? 'text-gray-text' : 'text-white'} hover:text-blue-icon transition-colors`}>
               Como Funciona
             </a>
-            <a href="#depoimentos" className={`${isScrolled ? 'text-gray-700' : 'text-white'} hover:text-blue-500 transition-colors`}>
+            <a href="#depoimentos" className={`${isScrolled ? 'text-gray-text' : 'text-white'} hover:text-blue-icon transition-colors`}>
               Depoimentos
             </a>
-            <a href="#faq" className={`${isScrolled ? 'text-gray-700' : 'text-white'} hover:text-blue-500 transition-colors`}>
+            <a href="#faq" className={`${isScrolled ? 'text-gray-text' : 'text-white'} hover:text-blue-icon transition-colors`}>
               FAQ
             </a>
           </nav>
