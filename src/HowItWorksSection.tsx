@@ -55,7 +55,7 @@ const HowItWorksSection: React.FC = () => {
           
           <div className="flex-1 flex justify-center">
             <img 
-              src="/src/images/telas.png" 
+              src="/images/telas.png" 
               alt="Telas do aplicativo Elo" 
               className="w-full max-w-sm rounded-xl shadow-lg"
             />

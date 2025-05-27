@@ -21,7 +21,7 @@ const SolutionSection: React.FC = () => {
         </div>
         <div className="mt-10 flex justify-center">
           <img 
-            src="/src/images/app-tela-login.png" 
+            src="/images/app-tela-login.png" 
             alt="Aplicativo Elo em um smartphone" 
             className="w-full max-w-md rounded-xl shadow-lg"
           />
