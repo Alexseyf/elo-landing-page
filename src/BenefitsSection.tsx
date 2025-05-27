@@ -35,7 +35,7 @@ const BenefitsSection: React.FC = () => {
               <h3 className="text-xl font-semibold text-blue-text">Comunicação Transparente e Ágil</h3>
             </div>
             <p className="text-gray-700 leading-relaxed">
-              Diga adeus às agendas de papel perdidas e aos grupos de WhatsApp desorganizados! O Elo oferece um canal de comunicação direto, seguro e organizado entre você e os educadores. Envie e receba mensagens individuais ou para a turma, tire dúvidas rapidamente, receba comunicados importantes, fotos e vídeos dos momentos especiais do seu filho na escola. Tudo registrado e acessível, facilitando o diálogo e fortalecendo a confiança mútua.
+              Diga adeus às agendas de papel perdidas e aos grupos de WhatsApp desorganizados! O Elo oferece um canal de comunicação direto, seguro e organizado entre você e os educadores. Envie e receba mensagens individuais ou para a turma, tire dúvidas rapidamente e receba comunicados importantes. Tudo registrado e acessível, facilitando o diálogo e fortalecendo a confiança mútua.
             </p>
           </div>
 
@@ -50,7 +50,7 @@ const BenefitsSection: React.FC = () => {
               <h3 className="text-xl font-semibold text-blue-text">Desenvolvimento de Perto</h3>
             </div>
             <p className="text-gray-700 leading-relaxed">
-              Participe ativamente da jornada de aprendizado do seu filho! Com o Elo, você visualiza o calendário escolar, fica por dentro dos eventos e projetos pedagógicos desenvolvidos em sala. Acompanhe as atividades realizadas através de fotos e vídeos compartilhados pelos professores, acesse relatórios de desenvolvimento e veja o portfólio digital que registra as conquistas e a evolução do seu pequeno. Celebre cada nova descoberta e aprendizado junto com ele.
+              Participe ativamente da jornada de aprendizado do seu filho! Com o Elo, você visualiza o calendário escolar, fica por dentro dos eventos e projetos pedagógicos desenvolvidos em sala. Tenhas acesso às atividades realizadas, acesse relatórios de desenvolvimento e acompanhe as conquistas e a evolução do seu pequeno. Celebre cada nova descoberta e aprendizado junto com ele.
             </p>
           </div>
 
