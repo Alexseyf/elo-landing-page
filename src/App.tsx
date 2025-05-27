@@ -8,6 +8,7 @@ import HowItWorksSection from './HowItWorksSection';
 import CTASection from './CTASection';
 import FAQSection from './FAQSection';
 import FooterSection from './FooterSection';
+import PricingElo from './Pricing';
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
       </div>
       <div id="como-funciona">
         <HowItWorksSection />
+      </div>
+      <div id='planos'>
+        <PricingElo />
       </div>
       <CTASection />
       <div id="faq">
