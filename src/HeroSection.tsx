@@ -2,7 +2,7 @@ import React from 'react';
 
 const HeroSection: React.FC = () => {
   return (
-    <section className="bg-gradient-to-r from-blue-background to-blue-background text-white py-20 px-4">
+    <section className="min-h-screen bg-gradient-to-r from-blue-background to-blue-background text-white pb-20 px-4 pt-40">
       <div className="container mx-auto max-w-6xl">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-center">
           Elo: A Conexão Essencial entre Você e o Universo Escolar do Seu Filho.
