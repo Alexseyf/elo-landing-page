@@ -71,7 +71,7 @@ const Header: React.FC = () => {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className={`h-6 w-6 ${isScrolled || isMobile ? 'text-blue-text' : 'text-white'}`}
+              className={`h-6 w-6 ${isScrolled || isMobile ? 'text-white-text' : 'text-white'}`}
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -90,28 +90,28 @@ const Header: React.FC = () => {
             <nav className="flex flex-col space-y-4">
               <a
                 href="#beneficios"
-                className={`${isScrolled || isMobile ? 'text-gray-700' : 'text-white'} hover:text-blue-500 transition-colors`}
+                className={`${isScrolled || isMobile ? 'text-white' : 'text-white'} hover:text-blue-200 transition-colors`}
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Benefícios
               </a>
               <a
                 href="#como-funciona"
-                className={`${isScrolled || isMobile ? 'text-gray-700' : 'text-white'} hover:text-blue-500 transition-colors`}
+                className={`${isScrolled || isMobile ? 'text-white' : 'text-white'} hover:text-blue-200 transition-colors`}
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Como Funciona
               </a>
               <a
                 href="#planos"
-                className={`${isScrolled || isMobile ? 'text-gray-700' : 'text-white'} hover:text-blue-500 transition-colors`}
+                className={`${isScrolled || isMobile ? 'text-white' : 'text-white'} hover:text-blue-200 transition-colors`}
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Planos
               </a>
               <a
                 href="#faq"
-                className={`${isScrolled || isMobile ? 'text-gray-700' : 'text-white'} hover:text-blue-500 transition-colors`}
+                className={`${isScrolled || isMobile ? 'text-white' : 'text-white'} hover:text-blue-200 transition-colors`}
                 onClick={() => setMobileMenuOpen(false)}
               >
                 FAQ
