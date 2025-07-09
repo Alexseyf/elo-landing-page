@@ -77,7 +77,7 @@ const TeamSection: React.FC = () => {
                   alt={member.name}
                   className="w-32 h-32 rounded-full object-cover border-4 border-white shadow-lg"
                   onError={(e) => {
-                    // Fallback para quando a imagem não carrega
+
                     const target = e.target as HTMLImageElement;
                     target.style.display = 'none';
                     const parent = target.parentElement;

@@ -10,6 +10,7 @@ import FAQSection from './FAQSection';
 import FooterSection from './FooterSection';
 import PricingElo from './Pricing';
 import TeamSection from './TeamSection';
+import FutureFeaturesSection from './FutureFeaturesSection';
 
 function App() {
   return (
@@ -29,6 +30,9 @@ function App() {
       </div>
       <div id="equipe">
         <TeamSection />
+      </div>
+      <div id="futuras-features">
+        <FutureFeaturesSection />
       </div>
       <CTASection />
       <div id="faq">
