@@ -60,6 +60,9 @@ const Header: React.FC = () => {
             <a href="#planos" className={`${isScrolled || isMobile ? 'text-white' : 'text-white'} hover:text-blue-icon transition-colors`}>
               Planos
             </a>
+            <a href="#equipe" className={`${isScrolled || isMobile ? 'text-white' : 'text-white'} hover:text-blue-icon transition-colors`}>
+              Equipe
+            </a>
             <a href="#faq" className={`${isScrolled || isMobile ? 'text-white' : 'text-white'} hover:text-blue-icon transition-colors`}>
               FAQ
             </a>
@@ -108,6 +111,13 @@ const Header: React.FC = () => {
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Planos
+              </a>
+              <a
+                href="#equipe"
+                className={`${isScrolled || isMobile ? 'text-white' : 'text-white'} hover:text-blue-200 transition-colors`}
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Equipe
               </a>
               <a
                 href="#faq"
