@@ -4,16 +4,16 @@ const HowItWorksSection: React.FC = () => {
   return (
     <section className="bg-white py-16 px-4">
       <div className="container mx-auto max-w-4xl">
-        <h2 className="text-3xl md:text-4xl font-semibold mb-10 text-center text-blue-text">
+        <h2 className="text-4xl md:text-5xl font-bold text-blue-text mb-4 text-center">
           Como Funciona
         </h2>
-        
-        <div className="flex flex-col md:flex-row justify-between items-center gap-8">
+
+        <div className="flex flex-col md:flex-row justify-between items-center gap-8 mt-8">
           <div className="flex-1">
             <p className="text-lg text-gray-700 mb-8">
               Começar a usar o Elo é muito simples e rápido, criando a ponte entre você e a escola em poucos passos:
             </p>
-            
+
             <div className="space-y-8">
               <div className="flex items-start">
                 <div className="bg-blue-background text-white rounded-full w-10 h-10 flex items-center justify-center font-bold text-lg mr-4 flex-shrink-0">
@@ -26,7 +26,7 @@ const HowItWorksSection: React.FC = () => {
                   </p>
                 </div>
               </div>
-              
+
               <div className="flex items-start">
                 <div className="bg-blue-background text-white rounded-full w-10 h-10 flex items-center justify-center font-bold text-lg mr-4 flex-shrink-0">
                   2
@@ -38,7 +38,7 @@ const HowItWorksSection: React.FC = () => {
                   </p>
                 </div>
               </div>
-              
+
               <div className="flex items-start">
                 <div className="bg-blue-background text-white rounded-full w-10 h-10 flex items-center justify-center font-bold text-lg mr-4 flex-shrink-0">
                   3
@@ -52,11 +52,11 @@ const HowItWorksSection: React.FC = () => {
               </div>
             </div>
           </div>
-          
+
           <div className="flex-1 flex justify-center">
-            <img 
-              src="/images/telas.png" 
-              alt="Telas do aplicativo Elo" 
+            <img
+              src="/images/telas.png"
+              alt="Telas do aplicativo Elo"
               className="w-full max-w-sm rounded-xl shadow-lg"
             />
           </div>

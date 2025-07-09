@@ -4,11 +4,11 @@ const BenefitsSection: React.FC = () => {
   return (
     <section className="bg-blue-50 py-16 px-4">
       <div className="container mx-auto max-w-6xl">
-        <h2 className="text-3xl md:text-4xl font-semibold mb-12 text-center text-blue-text">
+        <h2 className="text-4xl md:text-5xl font-bold text-blue-text mb-4 text-center">
           Benefícios Detalhados
         </h2>
-        
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
           {/* Benefício 1 */}
           <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-all">
             <div className="flex items-center mb-4">

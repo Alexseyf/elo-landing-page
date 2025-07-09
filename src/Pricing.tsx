@@ -5,7 +5,7 @@ const PricingElo: React.FC = () => {
     <section id="Pricing" className="py-12 md:py-20 bg-white">
       <div className="container mx-auto max-w-6xl px-6 lg:px-8">
         <div className="text-center mb-12 md:mb-16">
-          <h2 className="text-3xl md:text-4xl font-semibold text-blue-text mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-blue-text mb-4">
             Planos Flexíveis Pensados para sua Escola
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
@@ -41,8 +41,8 @@ const PricingElo: React.FC = () => {
                 <i className="fas fa-plus-circle text-blue-icon mr-3 mt-1"></i> E muitos outros módulos!
               </li>
             </ul>
-            <a 
-              href="#contato" 
+            <a
+              href="#contato"
               className="cta-button w-full bg-blue-background hover:bg-primary-blue-dark text-white font-semibold py-3 px-6 rounded-lg text-center transition-colors duration-300 ease-in-out hover:transform hover:-translate-y-0.5"
             >
               Consultar Módulos
@@ -71,8 +71,8 @@ const PricingElo: React.FC = () => {
                 <i className="fas fa-check-circle text-accent-green mr-3 mt-1"></i> Treinamento inicial
               </li>
             </ul>
-            <a 
-              href="#contato" 
+            <a
+              href="#contato"
               className="cta-button w-full bg-blue-background hover:bg-primary-blue-dark text-white font-semibold py-3 px-6 rounded-lg text-center transition-colors duration-300 ease-in-out hover:transform hover:-translate-y-0.5"
             >
               Solicitar Orçamento
@@ -100,8 +100,8 @@ const PricingElo: React.FC = () => {
                 <i className="fas fa-check-circle text-accent-green mr-3 mt-1"></i> Gerente de contas dedicado
               </li>
             </ul>
-            <a 
-              href="#contato" 
+            <a
+              href="#contato"
               className="cta-button w-full bg-blue-background hover:bg-primary-blue-dark text-white font-semibold py-3 px-6 rounded-lg text-center transition-colors duration-300 ease-in-out hover:transform hover:-translate-y-0.5"
             >
               Falar com Especialista

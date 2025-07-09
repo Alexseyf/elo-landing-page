@@ -4,29 +4,29 @@ const CTASection: React.FC = () => {
   return (
     <section className="bg-gradient-to-r from-blue-background to-blue-background text-white py-16 px-4">
       <div className="container mx-auto max-w-4xl text-center">
-        <h2 className="text-3xl md:text-4xl font-semibold mb-6">
+        <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
           Pronto para fortalecer o elo entre sua escola e as famílias?
         </h2>
-        
-        <div className="mb-10">
+
+        <div className="mb-10 mt-8">
           <p className="text-lg mb-8">
-            Se você é gestor escolar ou educador e deseja transformar a comunicação, 
-            o acompanhamento e a parceria com os pais, o Elo é a solução ideal. 
+            Se você é gestor escolar ou educador e deseja transformar a comunicação,
+            o acompanhamento e a parceria com os pais, o Elo é a solução ideal.
             Leve mais praticidade, segurança e engajamento para a sua comunidade escolar.
           </p>
-          
+
           <button className="bg-yellow-400 hover:bg-yellow-500 text-blue-text font-bold py-3 px-8 rounded-full text-lg transition-all">
             Solicite uma Demonstração Gratuita
           </button>
         </div>
-        
+
         <div className="mt-12 pt-8 border-t border-white">
           <h3 className="text-xl font-semibold mb-4">É pai ou responsável?</h3>
           <p className="mb-6">
-            Se sua escola ainda não utiliza o Elo, indique nossa solução! 
+            Se sua escola ainda não utiliza o Elo, indique nossa solução!
             E se o aplicativo já estiver disponível para download individual na sua região:
           </p>
-          
+
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <button className="bg-white hover:bg-gray-100 text-blue-text font-bold py-3 px-8 rounded-full text-lg transition-all flex items-center justify-center">
               <svg className="w-6 h-6 mr-2" viewBox="0 0 24 24" fill="currentColor">
@@ -41,7 +41,7 @@ const CTASection: React.FC = () => {
               Baixe no Google Play
             </button>
           </div>
-          
+
           <p className="mt-8 italic">
             Conecte-se hoje mesmo ao universo escolar do seu filho com o Elo!
           </p>

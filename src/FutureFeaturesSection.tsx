@@ -56,8 +56,8 @@ const FutureFeaturesSection: React.FC = () => {
             </svg>
             Em Breve
           </div>
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Próximas <span className="text-blue-600">Funcionalidades</span>
+          <h2 className="text-4xl md:text-5xl font-bold text-blue-text mb-4">
+            Próximas <span className="text-purple-600">Funcionalidades</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Estamos constantemente evoluindo para oferecer ainda mais recursos que facilitarão a gestão escolar
