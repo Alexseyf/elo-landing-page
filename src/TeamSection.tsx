@@ -50,7 +50,7 @@ const TeamSection: React.FC = () => {
             Nossa <span className="text-blue-600">Equipe</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Conheça os profissionais talentosos que tornaram o Elo uma realidade
+            Conheça os profissionais talentosos que tornaram o <strong className="text-blue-text">Elo Escola</strong> uma realidade
           </p>
         </div>
 

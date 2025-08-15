@@ -12,7 +12,7 @@ const FAQSection: React.FC = () => {
           {/* FAQ Item 1 */}
           <div className="bg-gray-50 rounded-xl p-6 hover:shadow-md transition-all">
             <h3 className="text-xl font-semibold text-blue-text mb-3">
-              Os dados do meu filho estão seguros no Elo?
+              Os dados do meu filho estão seguros no Elo Escola?
             </h3>
             <p className="text-gray-700">
               Sim, a segurança dos dados é nossa prioridade máxima. Utilizamos protocolos de segurança avançados,
@@ -25,7 +25,7 @@ const FAQSection: React.FC = () => {
           {/* FAQ Item 2 */}
           <div className="bg-gray-50 rounded-xl p-6 hover:shadow-md transition-all">
             <h3 className="text-xl font-semibold text-blue-text mb-3">
-              Como começo a usar o Elo se minha escola já o adotou?
+              Como começo a usar o Elo Escola se minha escola já o adotou?
             </h3>
             <p className="text-gray-700">
               É simples! A escola fornecerá as instruções de primeiro acesso através do seu e-mail.
@@ -37,7 +37,7 @@ const FAQSection: React.FC = () => {
           {/* FAQ Item 3 */}
           <div className="bg-gray-50 rounded-xl p-6 hover:shadow-md transition-all">
             <h3 className="text-xl font-semibold text-blue-text mb-3">
-              Posso acessar o Elo de qualquer dispositivo?
+              Posso acessar o Elo Escola de qualquer dispositivo?
             </h3>
             <p className="text-gray-700">
               Sim, o Elo é um aplicativo móvel disponível para smartphones e tablets (iOS e Android).

@@ -9,7 +9,7 @@ const PricingElo: React.FC = () => {
             Planos Flexíveis Pensados para sua Escola
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            No Elo, entendemos que cada escola é única. Por isso, oferecemos modelos de contratação adaptáveis à sua realidade, seja escolhendo módulos específicos ou pacotes por volume de alunos.
+            No Elo Escola, entendemos que cada escola é única. Por isso, oferecemos modelos de contratação adaptáveis à sua realidade, seja escolhendo módulos específicos ou pacotes por volume de alunos.
           </p>
         </div>
 

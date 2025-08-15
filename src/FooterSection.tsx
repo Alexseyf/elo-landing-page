@@ -9,7 +9,7 @@ const FooterSection: React.FC = () => {
             <img className="h-16 w-auto mb-2" src="/images/logo.png" alt="Logo Elo" />
 
             <p className="text-blue-200 mb-6">Conectando famílias e escolas.</p>
-            <p className="text-sm text-blue-300">© {new Date().getFullYear()} Elo App. Todos os direitos reservados.</p>
+            <p className="text-sm text-blue-300">© {new Date().getFullYear()} Elo Escola. Todos os direitos reservados.</p>
           </div>
 
           {/* Links Úteis */}
