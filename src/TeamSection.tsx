@@ -31,15 +31,6 @@ const TeamSection: React.FC = () => {
       linkedinUrl: "https://www.linkedin.com/in/betania-amaral/"
     },
     {
-      id: 3,
-      name: "Bruna Rocha",
-      role: "Pesquisa e Documentação",
-      description: "Bruna desempenhou um papel crucial nas etapas iniciais do projeto, auxiliando com as pesquisas necessárias e contribuindo para a documentação detalhada, garantindo que todas as informações estivessem bem organizadas.",
-      image: "/images/team/bruna.png",
-      githubUrl: "https://github.com/brrunasroocha",
-      linkedinUrl: "https://www.linkedin.com/in/bruna-santos-rocha-8711392b9/"
-    },
-    {
       id: 4,
       name: "Laura Oliveira",
       role: "Product Owner e Project Designer",
@@ -64,11 +55,11 @@ const TeamSection: React.FC = () => {
         </div>
 
         {/* Team Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="flex flex-wrap justify-center gap-8">
           {teamMembers.map((member) => (
             <div
               key={member.id}
-              className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 overflow-hidden"
+              className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 overflow-hidden w-full md:w-[calc(50%-1rem)] lg:w-[calc(25%-1.5rem)] max-w-sm"
             >
               {/* Image Container */}
               <div className="relative h-64 bg-blue-background flex items-center justify-center">
